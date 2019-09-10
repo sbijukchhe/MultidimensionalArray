@@ -24,38 +24,14 @@ public class MyArrayFirst {
         for (int rows = 0; rows < arr1.length; rows++) {
                 for (int cols = 0; cols < arr1[rows].length; cols++) {
                 arr1[rows][cols] = rows;
-                System.out.print("row "+arr1[rows][cols]);
-                System.out.print("col "+arr1[rows][cols] + "\t");
+                System.out.print("row"+arr1[rows][cols]);
+                System.out.print(" col"+arr1[rows][cols] + "\t");
             }
             System.out.println("\n");
 
         }
 
-        //Print the elements of an array
-//        for (int i = 0; i <10; i++) {
-//            for (int j = 0; j <5; j++) {
-//                System.out.print(arr1[i][j] + "\t");
-//            }
-//            System.out.println("\n");
-//        }
 
-
-//        for (int[] a : arr1
-//        ) {
-//            for (int i : a) {
-//                System.out.print(i + "\t");
-//            }
-//            System.out.println("\n");
-//        }
-//        for (int rows = 0; rows < arr1.length; rows++) {
-//            for (int cols = 0; cols < arr1[rows].length; cols++) {
-//                arr1[rows][cols] = rows;
-//                System.out.print("row"+arr1[rows][cols] + "\t");
-//                System.out.print("col"+arr1[rows][cols] + "\t");
-//            }
-//            System.out.println("\n");
-//
-//        }
     }
 }
 
